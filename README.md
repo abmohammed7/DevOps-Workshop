@@ -21,7 +21,7 @@ Open your favorite text editor for example VS code. Go to terminal and type the 
 
 **Let's add some code to workflow **
 1. Open the above file to create our first workflow and add below code
-2. 
+``` yaml   
 name: Lastname-workflow #makesure to change the lastname here
 on: [push]
 
