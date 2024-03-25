@@ -1,0 +1,13 @@
+name: abdul-workflow
+on: [push]
+
+jobs:
+    run-shell-commands:
+        runs-on: ubuntu-latest
+        steps:
+            - name: echo something
+              run: echo "Hello Deloitte DevOps Aspirants"
+            - name: Multiline commands
+              run: |
+               node -v
+               npm -v
