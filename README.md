@@ -35,7 +35,7 @@ jobs:
         run: |
           node -v
           npm -v
-``` yaml 
+``` 
 
 **Save the file and push the code to the respository using below commands**
 1. git add -A
